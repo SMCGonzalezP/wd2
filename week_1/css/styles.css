@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+/*first responsive site*/
+
+body {margin: 0px;
+font-family: Arial, Helvetica;
+}
+
+#toggleAssist,
+ul { display: none;}
+
+#toggleAssist:checked + ul.nav-links {display: block;}
