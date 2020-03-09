@@ -50,7 +50,7 @@ ul.nav-links a {
 	
 	} /*end of mid screen media query*/
 
-@media(max-width: 960pxe {
+@media(min-width: 960pxe {
 		header {
 		width: 960px;
 		margin: auto;

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.red-bg {
+	background-color: fuchsia;
+}
+
+.green-bg {
+	background-color: seagreen;
+}
+
+.blue-bg {
+	background-color: dodgerblue;
+}
+
+.yellow-bg {
+	background-color: yellow;
+}
+
+.purple-bg {
+	background-color: rebeccapurple;
+}
