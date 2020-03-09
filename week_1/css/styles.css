@@ -3,8 +3,8 @@
 /*first responsive site*/
 
 body {margin: 0px;
-font-family: Arial, Helvetica;
-}
+	font-family: Arial, Helvetica;
+	}
 
 
 .logo {
@@ -20,7 +20,7 @@ ul.nav-links {
 #toggleAssist:checked + ul.nav-links {display: block;}
 
 .toggle-button {
-	width: 40px; 
+	width: 100px; 
 	float: right; 
 	margin: 15px;
 	}
@@ -50,8 +50,9 @@ ul.nav-links a {
 	
 	} /*end of mid screen media query*/
 
-@media(max-width: 960pxe {
+@media(min-width: 960px) {
 		header {
 		width: 960px;
 		margin: auto;
-	}
+		}
+	} /*End of LG screen Media Q*/
