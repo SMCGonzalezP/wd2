@@ -2,7 +2,8 @@
 /* CSS Document */
 /*first responsive site*/
 
-body {margin: 0px;
+body {
+	margin: 0px;
 	font-family: Arial, Helvetica;
 	}
 
@@ -17,17 +18,18 @@ ul.nav-links {
 	display: none;
 	}
 
-#toggleAssist:checked + ul.nav-links {display: block;}
+#toggleAssist:checked + ul.nav-links {
+	display: block;
+	}
 
 .toggle-button {
-	width: 100px; 
+	width: 50px; 
 	float: right; 
 	margin: 15px;
 	}
 
 ul.nav-links {
-	list-style: 
-	none; 
+	list-style: none; 
 	padding-left: 0px;
 	}
 
@@ -43,11 +45,19 @@ ul.nav-links a {
 	}
 
 @media(min-width: 550px) {
-	.toggle-button {display: none;}
+	.toggle-button {
+		display: none;
+		}
 
-	ul.nav-links {dislplay: block; float: right;}
-	ul.nav-links li {display: inline-block; border-bottom: none;}
+	ul.nav-links {
+		dislplay: block; 
+		float: right;
+		}
 	
+	ul.nav-links li {
+		display: inline-block; 
+		border-bottom: none;
+		}
 	} /*end of mid screen media query*/
 
 @media(min-width: 960px) {
