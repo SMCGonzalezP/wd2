@@ -9,6 +9,8 @@
 	margin: auto;
 	padding: 15px;
 	}
+	
+	
 }
 
 @media(min-width: 900px) {
@@ -16,7 +18,7 @@
     }
 	
 /*
-	nav ul.flex1 {
+	nav ul.flex_r {
         flex-direction: row;
         justify-content: flex-end;
         flex-grow: 2;
@@ -24,6 +26,22 @@
         align-items: center;
     }
 */
+	
+	.drawing {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 200px;
+	padding: 10px;
+	align-items: center;
+	justify-content: flex-end;
+	
+
+	
+	/*margin: auto;
+	align-content: center;*/
+	/*	flex: 1;*/
+	}
 	
 	nav ul.flex {
         flex-direction: row;

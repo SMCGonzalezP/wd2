@@ -37,6 +37,18 @@ nav a {
     color: #005fe3;
 	}
 
+.drawing {
+	display: flex;
+/*	flex-direction: column;*/
+	max-width: 500px;
+	padding: 10px;
+	justify-content: center 
+	/*margin: auto;
+	align-content: center;*/
+	/*	flex: 1;*/
+	}
+
+
 /*.lightblue-bkg {
     background-color: #C6EBE2;
 	}*/
